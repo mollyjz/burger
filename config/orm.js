@@ -38,7 +38,7 @@ var orm = {
 		queryString += " (";
 		queryString += cols.toString();
 		queryString += ") ";
-		queryString += "VALUES (";
+		queryString += "VALUES ("; //error should be around here but can't find anything wrong...
 		queryString += printQuestionMarks(vals.length);
 		//console.log(queryString)
 		//console.log(printQuestionMarks(vals.length))

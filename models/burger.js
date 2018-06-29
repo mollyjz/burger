@@ -12,14 +12,14 @@ var burger = {
 
     insertOne: function(cols, vals, callback) {
       orm.insertOne("burgers", cols, vals, function(res) {
-        console.log("inserted " + res);
+        //console.log("inserted " + res);
         callback(res);
       });
     },
 
     updateOne: function(colVals, condition, callback) {
       orm.updateOne("burgers", colVals, condition, function(res) {
-        console.log("updated " + res);
+        //console.log("updated " + res);
         callback(res);
       });
     }
