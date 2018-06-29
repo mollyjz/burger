@@ -31,20 +31,6 @@ var orm = {
 	  callback(result);
     });
   },
-	
-/*
-	insertOne: function(table, cols, vals, callback) {
-		console.log(vals) //where is vals coming from???????
-		console.log(vals[0])
-		//SAYS 'DEVOURED' IS UNDEFINED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		var queryString = "INSERT INTO " + table + " (" + cols.toString() + ")" + " VALUES (" + vals[0] + ", " + vals[1] + ")"; 
-		console.log(queryString)
-		connection.query(queryString, function(err, result) {
-			if (err) throw err;
-			callback(result);
-		});
-	},
-*/
 
 
   insertOne: function(table, cols, vals, callback) {
@@ -71,7 +57,7 @@ var orm = {
 		var condition = "id = " + req.params.id;
 		var queryString = "UPDATE " + table;
 		queryString += " SET ";
-		queryString += objToSql(colVals);
+		queryString += objToSql(colVals); //issues here!!!!!!!!!!!!!!!!
 		queryString += " WHERE ";
 		queryString += condition;
 		connection.query(queryString, function (err, result) {
