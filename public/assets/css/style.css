@@ -1,0 +1,156 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	margin: 0px 0px 20px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 28px;
+}
+
+.add-burger {
+	width: 50%;
+    text-align: center;
+    margin: 40px auto 40px;
+}
+
+#new_burger_btn {
+    background-color: #ffa155;
+    margin-top: 10px;
+    border: none;
+}
+
+#new_burger {
+    text-align: center;
+    box-shadow: none;
+    border: 0px;
+    background-color: white;
+}
+
+#new_burger:active, #new_burger:focus {
+    background-color: white;
+}
+
+button {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: none;
+    background-color: #ffa155;
+}
+
+input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    background-color: #ffa155;
+    color: red; 
+}
+
+button #devour-btn {
+    margin: 5px;
+}
+
+button #devour-btn:hover {
+    color: white;
+    background-color: #ae1c13;
+}
+
+#devoured-burgers {
+	border-radius: unset;
+	border: 0px;
+	box-shadow: none;
+    background-color: #ffa155;
+}
+
+.dev-burger-list {
+    padding: 10px;
+    margin: 0px 7% 0 3%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #e07a04;
+    width: 40%;
+    background-color: white;
+    margin-bottom: 30px;
+    background-color: #ffa155;
+}
+
+.burger-list {
+    padding: 10px;
+    margin: 0 3% 0 7%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #e07a04;
+    width: 40%;
+    background-color: white;
+    background-color: #ffa155;
+}
+
+.btn-primary {
+    color: #3e3e3e;
+    background-color: #ffa155;
+    border: none; 
+    border-radius: 0px;
+    margin: 5px;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ae1c13;
+}
+
+.add-form {
+    text-align: center;
+    border: 0px;
+    box-shadow: none;
+}
+
+.add-brgr {
+    background-color: orange;
+    padding: 10px;
+}
+
+.container {
+    background-color: pink;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    background: whitesmoke;
+    background: -webkit-linear-gradient(orange, #ff5e00);
+    background: -o-linear-gradient(orange, #ff5e00);
+    background: -moz-linear-gradient(orange, #ff5e00);
+    background: linear-gradient(orange, #ff5e00);
+}
+
+.container .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.form-control {
+	border-radius: unset;
+	box-shadow: none;
+}
+
+#new_burger_btn {
+    background-color: #ffa155;
+    margin-top: 10px;
+    border: none;
+    border-radius: unset;
+}
